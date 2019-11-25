@@ -212,12 +212,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &267417483 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5419410417382564366, guid: 1c94e59e1c4d7114b996215cf7ef6d9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 723337850778051667}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &536068811 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
@@ -806,6 +800,6 @@ PrefabInstance:
         type: 3}
       propertyPath: viewer
       value: 
-      objectReference: {fileID: 267417483}
+      objectReference: {fileID: 536068811}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb649a99f1d5a14a87ad7cfefef58a0, type: 3}
