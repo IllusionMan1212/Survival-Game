@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour {
 
     private Vector3 move_direction;
 
-    public float speed = 25f;
+    public float speed = 35f;
     public float sprint_speed = 50f;
     private float gravity = 20f;
 

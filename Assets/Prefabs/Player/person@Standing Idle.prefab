@@ -1393,13 +1393,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
+  m_Height: 35
+  m_Radius: 15
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 10, z: 0}
 --- !u!114 &2606322178496448690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1586,46 +1586,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 222365224211596916}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: e5f5e4ae2d0a7f640a43882144340e12,
-        type: 3}
-      propertyPath: m_Name
-      value: NeolithicAxe
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: e5f5e4ae2d0a7f640a43882144340e12,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6219803229975901930, guid: e5f5e4ae2d0a7f640a43882144340e12,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4224801822505238522, guid: e5f5e4ae2d0a7f640a43882144340e12,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4224801822505238522, guid: e5f5e4ae2d0a7f640a43882144340e12,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -111590980385802690, guid: e5f5e4ae2d0a7f640a43882144340e12,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2390147277001255660, guid: e5f5e4ae2d0a7f640a43882144340e12,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8684251187902555887, guid: e5f5e4ae2d0a7f640a43882144340e12,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e5f5e4ae2d0a7f640a43882144340e12,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1695,6 +1655,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e5f5e4ae2d0a7f640a43882144340e12,
+        type: 3}
+      propertyPath: m_Name
+      value: NeolithicAxe
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e5f5e4ae2d0a7f640a43882144340e12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219803229975901930, guid: e5f5e4ae2d0a7f640a43882144340e12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224801822505238522, guid: e5f5e4ae2d0a7f640a43882144340e12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224801822505238522, guid: e5f5e4ae2d0a7f640a43882144340e12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -111590980385802690, guid: e5f5e4ae2d0a7f640a43882144340e12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2390147277001255660, guid: e5f5e4ae2d0a7f640a43882144340e12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8684251187902555887, guid: e5f5e4ae2d0a7f640a43882144340e12,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -6562066744935471810, guid: e5f5e4ae2d0a7f640a43882144340e12,
         type: 3}
