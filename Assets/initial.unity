@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 155476614}
   - component: {fileID: 155476613}
   - component: {fileID: 155476612}
+  - component: {fileID: 155476615}
   m_Layer: 10
   m_Name: FirstPersonCharacter
   m_TagString: MainCamera
@@ -212,6 +213,22 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!54 &155476615
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155476610}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 64
+  m_CollisionDetection: 0
 --- !u!4 &536068811 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0,
@@ -326,6 +343,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2502203975881118265, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -7943378556525867576, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: -9217817218132447574, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
         type: 3}
       propertyPath: m_Layer
@@ -337,11 +364,6 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8542655298583481684, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: -7943378556525867576, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
         type: 3}
       propertyPath: m_Layer
       value: 10
@@ -472,11 +494,6 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2440268447527424636, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2502203975881118265, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
         type: 3}
       propertyPath: m_Layer
       value: 10
@@ -649,6 +666,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -906,5 +927,10 @@ PrefabInstance:
       propertyPath: viewer
       value: 
       objectReference: {fileID: 536068811}
+    - target: {fileID: 7793586315121308710, guid: 9cb649a99f1d5a14a87ad7cfefef58a0,
+        type: 3}
+      propertyPath: detailLevels.Array.data[0].useForCollider
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb649a99f1d5a14a87ad7cfefef58a0, type: 3}
