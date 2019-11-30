@@ -111,6 +111,7 @@ public class EndlessTerrain : MonoBehaviour {
 			mapGenerator.RequestMapData(position,OnMapDataReceived);
 		}
 
+
 		void OnMapDataReceived(MapData mapData) {
 			this.mapData = mapData;
 			mapDataReceived = true;

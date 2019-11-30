@@ -226,7 +226,7 @@ PrefabInstance:
     - target: {fileID: -6057140222963153312, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
         type: 3}
       propertyPath: m_Controller
-      value: 
+      value:
       objectReference: {fileID: 9100000, guid: 5d11fede7d22300499f55738f85ecd0c, type: 2}
     - target: {fileID: -4216859302048453862, guid: 8d725eac71b414c4ca80f8ff4dbbe273,
         type: 3}
@@ -717,8 +717,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_IsWalking: 0
   m_WalkSpeed: 5
   m_RunSpeed: 10
@@ -1082,22 +1082,22 @@ PrefabInstance:
     - target: {fileID: 7793586315121308706, guid: 9cb649a99f1d5a14a87ad7cfefef58a0,
         type: 3}
       propertyPath: textureRenderer
-      value: 
+      value:
       objectReference: {fileID: 1560383219}
     - target: {fileID: 7793586315121308706, guid: 9cb649a99f1d5a14a87ad7cfefef58a0,
         type: 3}
       propertyPath: meshFilter
-      value: 
+      value:
       objectReference: {fileID: 945467696}
     - target: {fileID: 7793586315121308706, guid: 9cb649a99f1d5a14a87ad7cfefef58a0,
         type: 3}
       propertyPath: meshRenderer
-      value: 
+      value:
       objectReference: {fileID: 945467695}
     - target: {fileID: 7793586315121308710, guid: 9cb649a99f1d5a14a87ad7cfefef58a0,
         type: 3}
       propertyPath: viewer
-      value: 
+      value:
       objectReference: {fileID: 1265287275}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb649a99f1d5a14a87ad7cfefef58a0, type: 3}
